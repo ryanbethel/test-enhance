@@ -1,0 +1,14 @@
+{
+  "name": "test-enhance",
+  "version": "0.0.0",
+  "description": "A fresh new Architect project!",
+  "scripts": {
+    "start": "npx sandbox"
+  },
+  "devDependencies": {
+    "@architect/architect": "^9.4.1"
+  },
+  "dependencies": {
+    "@begin/enhance": "^2.0.0"
+  }
+}
