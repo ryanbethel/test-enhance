@@ -16,7 +16,7 @@ module.exports = function LinkPageTemplate (state = {}, html) {
       class LinkPage extends HTMLElement {
         constructor () {
           super()
-          const template = document.getElementById('single-file')
+          const template = document.getElementById('link-page-template')
           this.attachShadow({ mode: 'open' })
             .appendChild(template.content.cloneNode(true))
         }
