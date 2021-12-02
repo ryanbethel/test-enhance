@@ -16,6 +16,7 @@ module.exports = function MyContent (state = {}, html) {
       console.log('My Content')
     }
   }
+  customElements.define('my-content', MyContent)
 </script>
   `
 }

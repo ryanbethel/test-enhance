@@ -9,6 +9,6 @@
     "@architect/architect": "^9.4.1"
   },
   "dependencies": {
-    "@begin/enhance": "^2.0.0"
+    "@begin/enhance": "^2.0.1-next.0"
   }
 }
