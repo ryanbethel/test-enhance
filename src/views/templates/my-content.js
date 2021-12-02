@@ -1,6 +1,7 @@
 module.exports = function MyContent (state = {}, html) {
   return html`
 <h2>My Content</h2>
+<link-page></link-page>
 <slot name=title>
   <h3>
     Title
@@ -16,6 +17,7 @@ module.exports = function MyContent (state = {}, html) {
       console.log('My Content')
     }
   }
+  customElements.define('my-content', MyContent)
 </script>
   `
 }
